@@ -1,0 +1,9 @@
+{
+  "namespace": "com.zenika.avro.product",
+  "type": "record",
+  "name": "Product",
+  "fields": [
+        {"name": "label", "type": "string", "doc" : "The label"},
+        {"name": "vat", "type": "string", "doc" : "The value added taxes"}
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "namespace": "com.zenika.avro.price",
+  "type": "record",
+  "name": "Price",
+  "fields": [
+        {"name": "price", "type": "double", "doc" : "The price"}
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "namespace": "com.zenika.avro.product",
+  "type": "record",
+  "name": "ProductKey",
+  "fields": [
+    {"name": "productIdentifier", "type": "string", "doc" : "The product identifier"}
+    ]
+}

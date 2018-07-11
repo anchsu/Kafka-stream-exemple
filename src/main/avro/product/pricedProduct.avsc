@@ -1,0 +1,10 @@
+{
+  "namespace": "com.zenika.avro.product",
+  "type": "record",
+  "name": "PricedProduct",
+  "fields": [
+        {"name": "label", "type": "string", "doc" : "The label"},
+        {"name": "priceHT", "type": "double", "doc" : "The price HT"},
+        {"name": "priceTTC", "type": "double", "doc" : "The price TTC"}
+    ]
+}
